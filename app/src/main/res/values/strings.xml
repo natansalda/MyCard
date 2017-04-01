@@ -2,7 +2,7 @@
     <string name="app_name">Portfolio</string>
     <string name="welcome">Web sources:</string>
     <string name="title">Natalia Nazaruk\nJunior Android Developer</string>
-    <string name="git"><a href="http://www.github.com/natansalda">GitHub</a></string>
-    <string name="linkedin"><a href="https://www.linkedin.com/in/natalia-nazaruk-1b9a229a/">LinkedIn</a></string>
+    <string name="git">GitHub</string>
+    <string name="linkedin">LinkedIn</string>
     <string name="email">natalia.nazaruk@maphau.pl</string>
 </resources>

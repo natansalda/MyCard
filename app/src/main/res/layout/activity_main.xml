@@ -26,33 +26,37 @@
         android:textColor="@android:color/white"
         android:textSize="25sp" />
 
-    <TextView
+    <Button
         android:id="@+id/GitHub"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/txt1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
-        android:autoLink="web"
+        android:background="@drawable/button"
         android:drawableLeft="@drawable/github"
         android:drawablePadding="@dimen/activity_horizontal_margin"
-        android:linksClickable="true"
+        android:minHeight="40dp"
+        android:onClick="openGit"
+        android:padding="@dimen/activity_horizontal_margin"
         android:text="@string/git"
-        android:textSize="25sp" />
+        android:textSize="16sp" />
 
-    <TextView
+    <Button
         android:id="@+id/Linked_In"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/txt1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:autoLink="web"
-        android:clickable="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button"
         android:drawableLeft="@drawable/linkedin"
         android:drawablePadding="@dimen/activity_horizontal_margin"
+        android:minHeight="40dp"
+        android:onClick="openLinkedIn"
+        android:padding="@dimen/activity_horizontal_margin"
         android:text="@string/linkedin"
-        android:textSize="25sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/txt2"
